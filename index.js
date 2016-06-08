@@ -6,7 +6,7 @@ var Redis = require('ioredis');
 var request = require('request');
 
 function WxSignPackage(opts) {
-    this.opts = this.opts || {};
+    this.opts = opts || {};
     this.appid = this.opts.appid || "";
     this.secret = this.opts.secret || "";
     this.token = this.opts.token || "";
