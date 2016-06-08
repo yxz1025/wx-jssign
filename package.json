@@ -1,6 +1,6 @@
 {
   "name": "wx-jssign",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "微信js-sdk网页签名，支持express和koa-generator调用",
   "main": "index.js",
   "scripts": {
