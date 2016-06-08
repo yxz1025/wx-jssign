@@ -1,0 +1,29 @@
+{
+  "name": "wx-jssign",
+  "version": "1.0.0",
+  "description": "微信js-sdk网页签名，支持express和koa-generator调用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxz1025/wx-jssign.git"
+  },
+  "dependencies": {
+    "q": "1.4.1",
+    "ioredis": "1.15.1",
+    "request": "*",
+    "sha1": "*",
+    "crypto": "*"
+  },
+  "keywords": [
+    "微信签名 js-sdk"
+  ],
+  "author": "yxz1025",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxz1025/wx-jssign/issues"
+  },
+  "homepage": "https://github.com/yxz1025/wx-jssign#readme"
+}
