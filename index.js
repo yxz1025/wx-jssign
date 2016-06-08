@@ -101,7 +101,7 @@ WxSignPackage.prototype.getTicket = function() {
 WxSignPackage.prototype.getSignPackage = function(url) {
     var self = this;
     var deferred = Q.defer();
-    var appid = config.member_config.appid;
+    var appid = self.appid;
     var ts = self.createTimeStamp();
     var nonceStr = self.createNonceStr();
 
